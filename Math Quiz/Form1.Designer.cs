@@ -33,26 +33,24 @@
             // 
             // timeLabel
             // 
-            this.timeLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.timeLabel.AutoSize = true;
-            this.timeLabel.Location = new System.Drawing.Point(0, 0);
+            this.timeLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.timeLabel.Font = new System.Drawing.Font("SimSun", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.timeLabel.Location = new System.Drawing.Point(268, 9);
             this.timeLabel.Name = "timeLabel";
-            this.timeLabel.Size = new System.Drawing.Size(41, 12);
+            this.timeLabel.Size = new System.Drawing.Size(200, 30);
             this.timeLabel.TabIndex = 0;
-            this.timeLabel.Text = "label1";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(484, 362);
+            this.ClientSize = new System.Drawing.Size(480, 358);
             this.Controls.Add(this.timeLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "Math Quiz";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
